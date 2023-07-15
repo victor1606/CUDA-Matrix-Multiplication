@@ -1,0 +1,44 @@
+[ion.calugaritoiu@nehalem-wn16 asc_tema2]$ ./tema2_neopt ./custom_tests/input
+NEOPT SOLVER
+Run=./tema2_neopt: N=200: Time=0.126805
+NEOPT SOLVER
+Run=./tema2_neopt: N=400: Time=1.068493
+NEOPT SOLVER
+Run=./tema2_neopt: N=800: Time=8.738095
+NEOPT SOLVER
+Run=./tema2_neopt: N=1000: Time=16.388884
+NEOPT SOLVER
+Run=./tema2_neopt: N=1200: Time=28.791945
+[ion.calugaritoiu@nehalem-wn16 asc_tema2]$ ./tema2_opt_m ./custom_tests/input
+OPT SOLVER
+Run=./tema2_opt_m: N=200: Time=0.047110
+OPT SOLVER
+Run=./tema2_opt_m: N=400: Time=0.417832
+OPT SOLVER
+Run=./tema2_opt_m: N=800: Time=3.712468
+OPT SOLVER
+Run=./tema2_opt_m: N=1000: Time=6.275701
+OPT SOLVER
+Run=./tema2_opt_m: N=1200: Time=11.426621
+<<< Bonus=0p >>>
+[ion.calugaritoiu@nehalem-wn16 asc_tema2]$ ./tema2_blas ./custom_tests/input
+BLAS SOLVER
+Run=./tema2_blas: N=200: Time=0.007711
+BLAS SOLVER
+Run=./tema2_blas: N=400: Time=0.046767
+BLAS SOLVER
+Run=./tema2_blas: N=800: Time=0.345133
+BLAS SOLVER
+Run=./tema2_blas: N=1000: Time=0.682784
+BLAS SOLVER
+Run=./tema2_blas: N=1200: Time=1.138365
+
+
+
+TESTS:
+5
+200 159 out1
+400 123 out2
+800 456 out3
+1000 567 out4
+1200 789 out5
